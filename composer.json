@@ -1,0 +1,19 @@
+{
+    "name": "jisight/leaf_qn",
+    "description": "QN SDK",
+    "type": "sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leaf",
+            "email": "280747685@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "jisight\\leaf_qn\\":"src/"
+        }
+    }
+}
