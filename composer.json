@@ -13,9 +13,6 @@
     "require":{
         "qiniu/php-sdk":"^7.1"
     },
-    "require-dev": {
-        "qiniu/php-sdk": "^7.1"
-    },
     "autoload":{
         "psr-4":{
             "jisight\\leaf_qn\\":"src/"
