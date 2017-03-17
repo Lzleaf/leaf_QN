@@ -22,7 +22,7 @@ class leafUploadManager
         $this->config = require_once 'config.php';
     }
 
-    public function get_upload_token($bucket_index, $policy, $expires = 3600)
+    public function get_upload_token($bucket_index, $policy = null, $expires = 3600)
     {
         try {
             $auth = new Auth($this->config['accessKey'], $this->config['secretKey']);
