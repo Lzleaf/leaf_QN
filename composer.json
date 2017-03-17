@@ -15,7 +15,7 @@
     },
     "autoload":{
         "psr-4":{
-            "jisight\\leaf_qn\\":"src/Leaf_QN"
+            "Leaf_QN\\":"src/Leaf_QN"
         }
     }
 }
